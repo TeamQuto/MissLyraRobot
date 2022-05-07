@@ -41,7 +41,7 @@ from Python_ARQ import ARQ
 from search_engine_parser import GoogleSearch
 
 from MissLyraRobot import BOT_USERNAME, OWNER_ID
-from MissLyraRobot.config import get_str_key
+from MissLyraRobot.confing import get_str_key
 from MissLyraRobot.function.pluginhelpers import convert_seconds_to_minutes as time_convert
 from MissLyraRobot.function.pluginhelpers import fetch
 from MissLyraRobot.services.pyrogram import pbot
