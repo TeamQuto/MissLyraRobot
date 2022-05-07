@@ -38,9 +38,9 @@ logging.getLogger("pyrogram").setLevel(logging.INFO)
 logging.getLogger('ptbcontrib.postgres_persistence.postgrespersistence').setLevel(logging.WARNING)
 
 LOGGER = logging.getLogger('[MissLyraRobot]')
-LOGGER.info("FelliX is starting. | An Sanki BOTs Parts. | Licensed under GPLv3.")
+LOGGER.info("Lyra is starting. | TheXCodeTeam Parts. | Licensed under GPLv3.")
 LOGGER.info("Not affiliated to other anime or Villain in any way whatsoever.")
-LOGGER.info("Project maintained by: github.com/NitricXd (t.me/MrNitric)")
+LOGGER.info("Project maintained by: github.com/NitricXd (t.me/XeD_NitriC)")
 
 # if version < 3.9, stop bot.
 if sys.version_info[0] < 3 or sys.version_info[1] < 9:
