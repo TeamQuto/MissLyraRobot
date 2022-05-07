@@ -33,7 +33,6 @@ MONGO_DB = "lyra"
 mongodb = MongoClient(MONGO_DB_URI, MONGO_PORT)[MONGO_DB]
 motor = motor_asyncio.AsyncIOMotorClient(MONGO_DB_URI, MONGO_PORT)
 db = motor[MONGO_DB]
-db = client["lyra"]
 
 engine = AIOEngine(motor, MONGO_DB)
 
