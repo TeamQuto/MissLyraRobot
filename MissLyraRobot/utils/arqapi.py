@@ -17,7 +17,7 @@ from MissLyraRobot import pbot
 ARQ_API = "WZQUBA-PFAZQJ-OMIINH-MIVHYM-ARQ"
 ARQ_API_KEY = "WZQUBA-PFAZQJ-OMIINH-MIVHYM-ARQ"
 SUDOERS = OWNER_ID
-ARQ_API_URL = "https://thearq.tech"
+ARQ_API_URL = "https://grambuilders.tech"
 
 # Aiohttp Client
 print("[INFO]: INITIALZING AIOHTTP SESSION")
