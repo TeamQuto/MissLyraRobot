@@ -20,18 +20,20 @@ from motor import motor_asyncio
 from odmantic import AIOEngine
 from pymongo import MongoClient
 from pymongo.errors import ServerSelectionTimeoutError
+from MissLyraRobot import MONGO_DB_URI
 
 from MissLyraRobot import LOGGER
 from MissLyraRobot.confing import get_int_key, get_str_key
 
-MONGO_URI = get_str_key("MONGO_URI")
-MONGO_PORT = get_int_key("MONGO_PORT")
-MONGO_DB = get_str_key("MONGO_DB")
+MONGO_DB_URI = get_str_key("MONGO_DB_URI")
+MONGO_PORT = get_int_key("27017")
+MONGO_DB = "lyra"
 
 # Init MongoDB
-mongodb = MongoClient(MONGO_URI, MONGO_PORT)[MONGO_DB]
-motor = motor_asyncio.AsyncIOMotorClient(MONGO_URI, MONGO_PORT)
+mongodb = MongoClient(MONGO_DB_URI, MONGO_PORT)[MONGO_DB]
+motor = motor_asyncio.AsyncIOMotorClient(MONGO_DB_URI, MONGO_PORT)
 db = motor[MONGO_DB]
+db = client["lyra"]
 
 engine = AIOEngine(motor, MONGO_DB)
 
