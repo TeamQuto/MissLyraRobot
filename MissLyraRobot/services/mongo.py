@@ -29,10 +29,12 @@ MONGO_DB_URI = get_str_key("MONGO_DB_URI")
 MONGO_PORT = get_int_key("27017")
 MONGO_DB = "lyra"
 
-# Init MongoDB
-mongodb = MongoClient(MONGO_DB_URI, MONGO_PORT)[MONGO_DB]
+
+client = MongoClient()
+client = MongoClient(MONGO_DB_URI, MONGO_PORT)[MONGO_DB]
 motor = motor_asyncio.AsyncIOMotorClient(MONGO_DB_URI, MONGO_PORT)
 db = motor[MONGO_DB]
+db = client["lyra"]
 
 engine = AIOEngine(motor, MONGO_DB)
 
