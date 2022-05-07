@@ -40,10 +40,10 @@ from pyrogram.types import (
 from Python_ARQ import ARQ
 from search_engine_parser import GoogleSearch
 
-from MissLayraRobot import BOT_USERNAME, OWNER_ID
-from MissLayraRobot.config import get_str_key
-from MissLayraRobot.function.pluginhelpers import convert_seconds_to_minutes as time_convert
-from MissLayraRobot.function.pluginhelpers import fetch
+from MissLyraRobot import BOT_USERNAME, OWNER_ID
+from MissLyraRobot.config import get_str_key
+from MissLyraRobot.function.pluginhelpers import convert_seconds_to_minutes as time_convert
+from MissLyraRobot.function.pluginhelpers import fetch
 from MissLyraRobot.services.pyrogram import pbot
 
 ARQ_API = get_str_key("ARQ_API", required=True)
