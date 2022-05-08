@@ -36,8 +36,8 @@ class Config(object):
     BOT_ID = "1901951380"
     STRING_SESSION = "1BVtsOJsBu6ApoSjs00-4Gk0Z2iINDhinQOi_HZnedKddpSkbZrqiRL-xr6MPreYXJ8TvU46VxV2A9uPWjJGmtZBwJn6dEWTB23x0UJGbDwDnIrXqHyboWCSsfe0xQJAqVYvZUB0v0JZVNNpp_RUqw7Y7CRLvkXg8kw-IDv_hJcR1nnYIucxpF4Bc_0kjmroNaO4Qwn2Ci-9r5j86MKCUwkGJO3r8rEeDArGrFgOy5KYex_x5w-K8FK2Gm8HKVvWphFDCb7yf57n15qFKGPbnSENfeudlubK7Ei4S8LwIDyrpQokOLnK6C3s1-adZgrBFOO9l8B2EikY-aoBLCbIkncuMs4IsLqM="
     SESSION_STRING = "1BVtsOJsBu6ApoSjs00-4Gk0Z2iINDhinQOi_HZnedKddpSkbZrqiRL-xr6MPreYXJ8TvU46VxV2A9uPWjJGmtZBwJn6dEWTB23x0UJGbDwDnIrXqHyboWCSsfe0xQJAqVYvZUB0v0JZVNNpp_RUqw7Y7CRLvkXg8kw-IDv_hJcR1nnYIucxpF4Bc_0kjmroNaO4Qwn2Ci-9r5j86MKCUwkGJO3r8rEeDArGrFgOy5KYex_x5w-K8FK2Gm8HKVvWphFDCb7yf57n15qFKGPbnSENfeudlubK7Ei4S8LwIDyrpQokOLnK6C3s1-adZgrBFOO9l8B2EikY-aoBLCbIkncuMs4IsLqM="
-    SQLALCHEMY_DATABASE_URI = "postgresql://wyzrizov:qAkAbV5qVCxtXy5vye45WUCBcV0foSlZ@kashin.db.elephantsql.com/wyzrizov"
-    DATABASE_URL = "postgresql://wyzrizov:qAkAbV5qVCxtXy5vye45WUCBcV0foSlZ@kashin.db.elephantsql.com/wyzrizov"
+    SQLALCHEMY_DATABASE_URI = "postgres://xkncmhpw:9f1Z_dF2OMcgWejkDDsJuaPq4MdkSu5u@lallah.db.elephantsql.com/xkncmhpw"
+    DATABASE_URL = "postgres://xkncmhpw:9f1Z_dF2OMcgWejkDDsJuaPq4MdkSu5u@lallah.db.elephantsql.com/xkncmhpw"
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
